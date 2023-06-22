@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html>
+ <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet"   href="brique.css"/>
+     
+ </head>
+ <body>
+  <main>
+ <div id="jeu" >
+  <div id="pseudo" class="texte"></div>
+  <div id="diff" class="texte">Difficulté :</div>
+  <form>
+    <div id = "select">
+  <select name="" id="difficulte"></div>
+    
+    <option value="facile" >facile</option>
+    <option value="normal" selected>normal</option>
+    <option value="difficile">difficile</option>
+  </select>
+</div>
+  <!-- <div id = "divEntrerPseudo"></div>  -->
+ <div id="formPseudo" class="texte"><label for="entrerPseudo">Entrez un pseudonyme : </label> </div>
+  <textarea name="" id="entrerPseudo" cols="30" rows="1"></textarea></div>
+    <input type="button" value="Valider" id="boutForm" class="texte">
+ 
+</form>
+
+
+  
+<div id="niv" class="dialogue"> </div>
+
+    <div id = "pauseAff">
+    <div id = "affPause"></div>
+
+<input type="button" value = "reprendre" id = "reprendre">
+<input type="button" value = "recommencer" id = "recommencer">
+
+
+
+
+
+
+  </div>
+
+
+   
+ <div id = "nivAff" class="texte">Niveau</div>
+
+
+<div id="vies" class = "texte"></div>
+
+
+
+<div id = "score" class = "texte"></div>
+<div id = "temps" class="texte"></div>
+<div id = "fps" class="texte"></div>
+
+
+
+<!-- <table id="tabScore" class="texte">
+  
+  <caption>Tableau scores :</caption>
+
+<tr> <th>Position : </th> <th>Pseudo :</th> <th>Score :</th> <th>Temps :</th></tr>
+
+<tr><td>0</td> <td>0</td> <td> 0</td> <td>0</td></tr>
+
+<tr><td>0</td> <td>0</td> <td>0</td> <td>0</td></tr>
+
+<tr><td>0</td> <td>0</td> <td>0</td> <td>0</td></tr>
+
+</table> -->
+</main>
+
+
+
+  <script src="./classe.js"></script>
+    <script src="brique.js"></script>
+ </body>
+</html>

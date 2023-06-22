@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+ <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet"   href="style.css"/>
+        
+ </head>
+ <body>
+  
+
+     
+    <p id="p1" style="display: none;">Il était une fois,</p>
+    <p id="p2" style="display: none;">dans un monde imaginaire,</p>
+    <p id="p3" style="display: none;">un royaume magique peuplé de créatures fantastiques. </p>
+    <p id="p4" style="display: none;">Dans ce royaume,il y avait une forteresse protégée par de puissants sorts et enchantements, et dont les murs étaient faits de briques magiques
+    </p> 
+    
+    <p id="p5" style="display: none;">votre mission est de s'emparer de la forteresse et de prendre le contrôle du royaume.</p>
+    <p id="p6" style="display: none;">vous êtes doté de pouvoirs incroyables qui vous permettent de briser les briques magiques à chaque coup de votre batte.</p>
+    <p id="p7" style="display: none;">Vous devez utiliser ces pouvoirs pour détruire la forteresse </p>
+    <p id="p8" style="display: none;">Mais tout n'est pas aussi simple qu'il n'y paraît. </p>
+    <p id="p9" style="display: none;">Au fil de votre progression, vous allez affronter des ennemis puissants qui vont tout faire pour vous arrêter</p>
+    <p id="p11" style="display: none;">Avec chaque niveau que vous réussissez, vous progressez dans la forteresse et vous affrontez de nouveaux ennemis plus puissants et plus astucieux.</p>
+    <p id="p12" style="display: none;">Si vous parvenez à vaincre tous les défenseurs de la forteresse et à détruire jusqu'à la dernière brique, vous remporterez la victoire; </p>
+    <p id="p13" style="display: none;">Mais attention, </p>
+    <p id="p14" style="display: none;">votre succès aura un prix : en détruisant la forteresse, vous aurez également détruit tout espoir de paix et de justice dans le royaume.</p> 
+    <a href="file:///home/student34/history/index.html"><button id="button1" >commencer le jeu</button></a>
+    <script>
+      var counter = 1;
+
+      function displayParagraph() {
+        var paragraph = document.getElementById("p" + counter);
+        paragraph.style.display = "block";    
+      
+      setTimeout(function() {
+    paragraph.style.display = "none";  
+  }, 3000);
+  counter++;
+}
+
+
+      setInterval(displayParagraph, 3000);  
+      let button = document.querySelector("#button1");
+button.style.display = "none";
+
+setTimeout(() => {
+    button.style.display = "block";
+}, 30000); 
+</script>
+   
+   
+<!-- <script>document.getElementById("button1").onclick = function() {
+  document.getElementById("button2").style.display = "block";
+} </script> -->
+ </body>    
+ </html>

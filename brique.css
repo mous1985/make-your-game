@@ -1,0 +1,258 @@
+  html, body{
+   
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 39, 41);
+    
+overflow: hidden;
+  }
+  #diff{
+    position: absolute;
+
+    width : 150px;
+    /* height :100px; */
+    left : 1450px;
+    top : 100px;
+  
+
+  }  
+  #select{
+    position: absolute; 
+
+    width : 100px;
+     height :50px;
+   
+
+
+    left : 1600px;
+    top : 100px; 
+   ;
+   
+  }
+ #difficulte{
+  font-size: 20px;
+
+ }
+      /* #divEntrerPseudo{ 
+        position: absolute;
+        background-color: #f5e0e0;
+           width : 100px;
+           height :50px;
+           left : 1450px;
+           top : 250px;
+          }   */
+  #entrerPseudo{ 
+    position: absolute;
+ 
+       width : 200px;
+      
+       left : 1450px;
+       top : 200px;
+      }
+      #formPseudo{ 
+        position: absolute;
+        
+           width : 300px;
+           height :50px;
+           left : 1450px;
+           top : 150px;
+          }
+      #boutForm{ 
+        position: absolute;
+     background-color: #0c0c0c;
+           width : 100px;
+           height :50px;
+           left : 1450px;
+           top : 250px;
+           border: solid rgb(180, 57, 57);
+           border-width: 1px;
+          }
+           
+  #tabScore{
+    position: absolute;
+    width : 300px;
+    height :400px;
+    left : 1450px;
+    top : 300px;
+
+  }
+  #temps{
+    position: absolute;
+    left :850px;
+    top :900px;
+    width: 300px;
+    height: 100px;
+  }
+  .texte{
+color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+opacity: 80%;
+
+
+}
+#pauseAff{
+  visibility: hidden;   
+opacity: 80%;
+
+position : absolute;
+  left: 200px;
+  top: 300px;
+  text-align: center;
+ /* border:solid  rgb(128, 46, 46);
+ border-radius: 2%;
+border-width: 3px; */
+width: 1000px;
+  height: 250px;
+
+  }
+  #affPause{
+color: aliceblue;
+text-align: center;
+font-size: 50px;
+
+  }
+  #reprendre{
+    position : absolute;
+   color: white;
+    background-color: #0c0c0c;
+    left :400px;
+    top :180px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+border:solid  red;
+
+border-width: 1px;
+font-size: 20px;
+
+  }
+  #recommencer{
+    position : absolute;
+    color: white;
+     background-color: #0c0c0c;
+     left :600px;
+     top :180px;
+     width: 150px;
+     height: 50px;
+     text-align: center;
+ border:solid  red;
+
+ border-width: 1px;
+ font-size: 20px;
+  }
+  #vies{
+    position : absolute;
+    left :300px;
+    top :900px;
+    width: 300px;
+    height: 100px;
+  }
+  #pseudo{
+    position : absolute;
+    left :1200px;
+    top :750px;
+    width: 100px;
+    height: 100px;
+  
+
+  }
+ #score{
+  position : absolute;
+  left :600px;
+  top :850px;
+  width: 100px;
+  height: 100px
+
+ }
+  
+    #jeu{
+        position: absolute;
+        background: black ; 
+
+     width: 1400px;
+        height: 800px;
+        left: 0;
+        top: 0px;
+         border : solid rgb(112, 47, 47);
+        border-width: 2px
+    }
+    #nivAff{
+      position : absolute;
+      
+      left : 50px;
+      top : 900px;
+      width: 100px;
+      height: 100px;
+    }
+     #barre{
+           position: absolute;
+        background:rgb(63, 62, 62);
+        border : solid #b6b5c5;
+        border-width: 1px
+       
+     } 
+    #balle{
+      position: absolute;
+        background:#d6caca;
+      border-radius:50%;
+      border: red;
+     }
+  #espaceBrique{
+    position: absolute;
+    /* background-color: aqua;  */
+   
+
+  }
+.brique{
+    position: absolute;
+    opacity: 60%;
+    background:#585757;
+    border : solid rgb(189, 177, 176);
+    border-width: 1px
+    
+
+  }
+  .brique1{
+    position: absolute;
+    background:#865252;
+    opacity: 80%;
+    border : solid rgb(114, 104, 104);
+    border-width: 1px
+  
+
+  }
+ .dialogue {
+      visibility: hidden;   
+    background-color:black;
+  position : absolute;
+    left: 500px;
+    top: 300px;
+    color: aliceblue;
+  
+    text-align: center;
+   padding-top: 30px;
+  
+    font-size: xx-large;
+  
+   border:solid  red;
+   border-radius: 2%;
+
+border-width: 0.5px;
+  
+
+
+    width: 500px;
+    height: 100px;
+
+    
+  
+  }
+ #fps{
+  position : absolute;
+  left :1200px;
+  top :850px;
+  width: 100px;
+  height: 100px
+
+ }
